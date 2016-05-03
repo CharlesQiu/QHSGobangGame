@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5618045C1CD87E660034D864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618045B1CD87E660034D864 /* main.m */; };
+		5618045F1CD87E660034D864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618045E1CD87E660034D864 /* AppDelegate.m */; };
+		561804621CD87E660034D864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804611CD87E660034D864 /* ViewController.m */; };
+		561804651CD87E660034D864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561804631CD87E660034D864 /* Main.storyboard */; };
+		561804671CD87E660034D864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561804661CD87E660034D864 /* Assets.xcassets */; };
+		5618046A1CD87E660034D864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561804681CD87E660034D864 /* LaunchScreen.storyboard */; };
+		561804751CD87E660034D864 /* QHSGobangGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804741CD87E660034D864 /* QHSGobangGameTests.m */; };
+		561804801CD87E660034D864 /* QHSGobangGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618047F1CD87E660034D864 /* QHSGobangGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561804711CD87E660034D864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618044F1CD87E660034D864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561804561CD87E660034D864;
+			remoteInfo = QHSGobangGame;
+		};
+		5618047C1CD87E660034D864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618044F1CD87E660034D864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561804561CD87E660034D864;
+			remoteInfo = QHSGobangGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561804571CD87E660034D864 /* QHSGobangGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHSGobangGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5618045B1CD87E660034D864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5618045D1CD87E660034D864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5618045E1CD87E660034D864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		561804601CD87E660034D864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		561804611CD87E660034D864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		561804641CD87E660034D864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561804661CD87E660034D864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561804691CD87E660034D864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5618046B1CD87E660034D864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561804701CD87E660034D864 /* QHSGobangGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHSGobangGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561804741CD87E660034D864 /* QHSGobangGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSGobangGameTests.m; sourceTree = "<group>"; };
+		561804761CD87E660034D864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5618047B1CD87E660034D864 /* QHSGobangGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHSGobangGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5618047F1CD87E660034D864 /* QHSGobangGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSGobangGameUITests.m; sourceTree = "<group>"; };
+		561804811CD87E660034D864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561804541CD87E660034D864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618046D1CD87E660034D864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561804781CD87E660034D864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5618044E1CD87E660034D864 = {
+			isa = PBXGroup;
+			children = (
+				561804591CD87E660034D864 /* QHSGobangGame */,
+				561804731CD87E660034D864 /* QHSGobangGameTests */,
+				5618047E1CD87E660034D864 /* QHSGobangGameUITests */,
+				561804581CD87E660034D864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561804581CD87E660034D864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561804571CD87E660034D864 /* QHSGobangGame.app */,
+				561804701CD87E660034D864 /* QHSGobangGameTests.xctest */,
+				5618047B1CD87E660034D864 /* QHSGobangGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561804591CD87E660034D864 /* QHSGobangGame */ = {
+			isa = PBXGroup;
+			children = (
+				5618045D1CD87E660034D864 /* AppDelegate.h */,
+				5618045E1CD87E660034D864 /* AppDelegate.m */,
+				561804601CD87E660034D864 /* ViewController.h */,
+				561804611CD87E660034D864 /* ViewController.m */,
+				561804631CD87E660034D864 /* Main.storyboard */,
+				561804661CD87E660034D864 /* Assets.xcassets */,
+				561804681CD87E660034D864 /* LaunchScreen.storyboard */,
+				5618046B1CD87E660034D864 /* Info.plist */,
+				5618045A1CD87E660034D864 /* Supporting Files */,
+			);
+			path = QHSGobangGame;
+			sourceTree = "<group>";
+		};
+		5618045A1CD87E660034D864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5618045B1CD87E660034D864 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		561804731CD87E660034D864 /* QHSGobangGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				561804741CD87E660034D864 /* QHSGobangGameTests.m */,
+				561804761CD87E660034D864 /* Info.plist */,
+			);
+			path = QHSGobangGameTests;
+			sourceTree = "<group>";
+		};
+		5618047E1CD87E660034D864 /* QHSGobangGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5618047F1CD87E660034D864 /* QHSGobangGameUITests.m */,
+				561804811CD87E660034D864 /* Info.plist */,
+			);
+			path = QHSGobangGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561804561CD87E660034D864 /* QHSGobangGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561804841CD87E660034D864 /* Build configuration list for PBXNativeTarget "QHSGobangGame" */;
+			buildPhases = (
+				561804531CD87E660034D864 /* Sources */,
+				561804541CD87E660034D864 /* Frameworks */,
+				561804551CD87E660034D864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHSGobangGame;
+			productName = QHSGobangGame;
+			productReference = 561804571CD87E660034D864 /* QHSGobangGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5618046F1CD87E660034D864 /* QHSGobangGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561804871CD87E660034D864 /* Build configuration list for PBXNativeTarget "QHSGobangGameTests" */;
+			buildPhases = (
+				5618046C1CD87E660034D864 /* Sources */,
+				5618046D1CD87E660034D864 /* Frameworks */,
+				5618046E1CD87E660034D864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561804721CD87E660034D864 /* PBXTargetDependency */,
+			);
+			name = QHSGobangGameTests;
+			productName = QHSGobangGameTests;
+			productReference = 561804701CD87E660034D864 /* QHSGobangGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5618047A1CD87E660034D864 /* QHSGobangGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618048A1CD87E660034D864 /* Build configuration list for PBXNativeTarget "QHSGobangGameUITests" */;
+			buildPhases = (
+				561804771CD87E660034D864 /* Sources */,
+				561804781CD87E660034D864 /* Frameworks */,
+				561804791CD87E660034D864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5618047D1CD87E660034D864 /* PBXTargetDependency */,
+			);
+			name = QHSGobangGameUITests;
+			productName = QHSGobangGameUITests;
+			productReference = 5618047B1CD87E660034D864 /* QHSGobangGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5618044F1CD87E660034D864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Charles.Qiu;
+				TargetAttributes = {
+					561804561CD87E660034D864 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5618046F1CD87E660034D864 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 561804561CD87E660034D864;
+					};
+					5618047A1CD87E660034D864 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 561804561CD87E660034D864;
+					};
+				};
+			};
+			buildConfigurationList = 561804521CD87E660034D864 /* Build configuration list for PBXProject "QHSGobangGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5618044E1CD87E660034D864;
+			productRefGroup = 561804581CD87E660034D864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561804561CD87E660034D864 /* QHSGobangGame */,
+				5618046F1CD87E660034D864 /* QHSGobangGameTests */,
+				5618047A1CD87E660034D864 /* QHSGobangGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561804551CD87E660034D864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5618046A1CD87E660034D864 /* LaunchScreen.storyboard in Resources */,
+				561804671CD87E660034D864 /* Assets.xcassets in Resources */,
+				561804651CD87E660034D864 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618046E1CD87E660034D864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561804791CD87E660034D864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561804531CD87E660034D864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561804621CD87E660034D864 /* ViewController.m in Sources */,
+				5618045F1CD87E660034D864 /* AppDelegate.m in Sources */,
+				5618045C1CD87E660034D864 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618046C1CD87E660034D864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561804751CD87E660034D864 /* QHSGobangGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561804771CD87E660034D864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561804801CD87E660034D864 /* QHSGobangGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561804721CD87E660034D864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561804561CD87E660034D864 /* QHSGobangGame */;
+			targetProxy = 561804711CD87E660034D864 /* PBXContainerItemProxy */;
+		};
+		5618047D1CD87E660034D864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561804561CD87E660034D864 /* QHSGobangGame */;
+			targetProxy = 5618047C1CD87E660034D864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561804631CD87E660034D864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561804641CD87E660034D864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561804681CD87E660034D864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561804691CD87E660034D864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561804821CD87E660034D864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		561804831CD87E660034D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561804851CD87E660034D864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHSGobangGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		561804861CD87E660034D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHSGobangGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		561804881CD87E660034D864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QHSGobangGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHSGobangGame.app/QHSGobangGame";
+			};
+			name = Debug;
+		};
+		561804891CD87E660034D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QHSGobangGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHSGobangGame.app/QHSGobangGame";
+			};
+			name = Release;
+		};
+		5618048B1CD87E660034D864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHSGobangGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QHSGobangGame;
+			};
+			name = Debug;
+		};
+		5618048C1CD87E660034D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHSGobangGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QHSGobangGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561804521CD87E660034D864 /* Build configuration list for PBXProject "QHSGobangGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561804821CD87E660034D864 /* Debug */,
+				561804831CD87E660034D864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561804841CD87E660034D864 /* Build configuration list for PBXNativeTarget "QHSGobangGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561804851CD87E660034D864 /* Debug */,
+				561804861CD87E660034D864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		561804871CD87E660034D864 /* Build configuration list for PBXNativeTarget "QHSGobangGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561804881CD87E660034D864 /* Debug */,
+				561804891CD87E660034D864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5618048A1CD87E660034D864 /* Build configuration list for PBXNativeTarget "QHSGobangGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618048B1CD87E660034D864 /* Debug */,
+				5618048C1CD87E660034D864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5618044F1CD87E660034D864 /* Project object */;
+}
