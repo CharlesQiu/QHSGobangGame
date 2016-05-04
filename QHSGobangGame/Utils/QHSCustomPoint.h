@@ -10,4 +10,9 @@
 
 @interface QHSCustomPoint : NSObject
 
+@property (nonatomic, assign) NSInteger x;
+@property (nonatomic, assign) NSInteger y;
+
+- (instancetype)initPointWith:(NSInteger)x y:(NSInteger)y;
+
 @end

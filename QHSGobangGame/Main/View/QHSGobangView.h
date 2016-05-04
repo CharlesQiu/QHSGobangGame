@@ -10,4 +10,6 @@
 
 @interface QHSGobangView : UIView
 
+- (void)reset;
+
 @end
