@@ -6,17 +6,18 @@
 //  Copyright © 2016 Charles.Qiu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "QHSMainViewController.h"
 
-@interface ViewController ()
+@interface QHSMainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation QHSMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {
