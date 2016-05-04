@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5618045C1CD87E660034D864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618045B1CD87E660034D864 /* main.m */; };
-		5618045F1CD87E660034D864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618045E1CD87E660034D864 /* AppDelegate.m */; };
-		561804621CD87E660034D864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804611CD87E660034D864 /* ViewController.m */; };
 		561804651CD87E660034D864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561804631CD87E660034D864 /* Main.storyboard */; };
-		561804671CD87E660034D864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561804661CD87E660034D864 /* Assets.xcassets */; };
 		5618046A1CD87E660034D864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561804681CD87E660034D864 /* LaunchScreen.storyboard */; };
 		561804751CD87E660034D864 /* QHSGobangGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804741CD87E660034D864 /* QHSGobangGameTests.m */; };
 		561804801CD87E660034D864 /* QHSGobangGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618047F1CD87E660034D864 /* QHSGobangGameUITests.m */; };
+		561804971CD87FB10034D864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804961CD87FB10034D864 /* AppDelegate.m */; };
+		5618049A1CD87FC30034D864 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561804981CD87FC30034D864 /* Info.plist */; };
+		5618049B1CD87FC30034D864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804991CD87FC30034D864 /* main.m */; };
+		561804A21CD881A30034D864 /* QHSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618049F1CD881A30034D864 /* QHSMainViewController.m */; };
+		561804A51CD882130034D864 /* QHSGobangView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804A41CD882130034D864 /* QHSGobangView.m */; };
+		561804AA1CD89CE40034D864 /* QHSCustomPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804A91CD89CE40034D864 /* QHSCustomPoint.m */; };
+		561804AD1CD8A07C0034D864 /* QHSSimpleAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 561804AC1CD8A07C0034D864 /* QHSSimpleAI.m */; };
+		561804AF1CD9D94D0034D864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561804AE1CD9D94D0034D864 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +40,27 @@
 
 /* Begin PBXFileReference section */
 		561804571CD87E660034D864 /* QHSGobangGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHSGobangGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5618045B1CD87E660034D864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5618045D1CD87E660034D864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5618045E1CD87E660034D864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		561804601CD87E660034D864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		561804611CD87E660034D864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		561804641CD87E660034D864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		561804661CD87E660034D864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561804691CD87E660034D864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5618046B1CD87E660034D864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		561804701CD87E660034D864 /* QHSGobangGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHSGobangGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		561804741CD87E660034D864 /* QHSGobangGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSGobangGameTests.m; sourceTree = "<group>"; };
 		561804761CD87E660034D864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5618047B1CD87E660034D864 /* QHSGobangGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHSGobangGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5618047F1CD87E660034D864 /* QHSGobangGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSGobangGameUITests.m; sourceTree = "<group>"; };
 		561804811CD87E660034D864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561804951CD87FB10034D864 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		561804961CD87FB10034D864 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		561804981CD87FC30034D864 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561804991CD87FC30034D864 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5618049E1CD881A30034D864 /* QHSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHSMainViewController.h; sourceTree = "<group>"; };
+		5618049F1CD881A30034D864 /* QHSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHSMainViewController.m; sourceTree = "<group>"; };
+		561804A31CD882130034D864 /* QHSGobangView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHSGobangView.h; sourceTree = "<group>"; };
+		561804A41CD882130034D864 /* QHSGobangView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHSGobangView.m; sourceTree = "<group>"; };
+		561804A81CD89CE40034D864 /* QHSCustomPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHSCustomPoint.h; sourceTree = "<group>"; };
+		561804A91CD89CE40034D864 /* QHSCustomPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHSCustomPoint.m; sourceTree = "<group>"; };
+		561804AB1CD8A07C0034D864 /* QHSSimpleAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHSSimpleAI.h; sourceTree = "<group>"; };
+		561804AC1CD8A07C0034D864 /* QHSSimpleAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHSSimpleAI.m; sourceTree = "<group>"; };
+		561804AE1CD9D94D0034D864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,9 @@
 		561804591CD87E660034D864 /* QHSGobangGame */ = {
 			isa = PBXGroup;
 			children = (
-				5618045D1CD87E660034D864 /* AppDelegate.h */,
-				5618045E1CD87E660034D864 /* AppDelegate.m */,
-				561804601CD87E660034D864 /* ViewController.h */,
-				561804611CD87E660034D864 /* ViewController.m */,
-				561804631CD87E660034D864 /* Main.storyboard */,
-				561804661CD87E660034D864 /* Assets.xcassets */,
-				561804681CD87E660034D864 /* LaunchScreen.storyboard */,
-				5618046B1CD87E660034D864 /* Info.plist */,
+				5618049C1CD881A30034D864 /* Main */,
+				561804A61CD89C6F0034D864 /* AI */,
+				561804A71CD89CCA0034D864 /* Utils */,
 				5618045A1CD87E660034D864 /* Supporting Files */,
 			);
 			path = QHSGobangGame;
@@ -117,7 +122,12 @@
 		5618045A1CD87E660034D864 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5618045B1CD87E660034D864 /* main.m */,
+				561804AE1CD9D94D0034D864 /* Assets.xcassets */,
+				561804681CD87E660034D864 /* LaunchScreen.storyboard */,
+				561804981CD87FC30034D864 /* Info.plist */,
+				561804991CD87FC30034D864 /* main.m */,
+				561804951CD87FB10034D864 /* AppDelegate.h */,
+				561804961CD87FB10034D864 /* AppDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +148,60 @@
 				561804811CD87E660034D864 /* Info.plist */,
 			);
 			path = QHSGobangGameUITests;
+			sourceTree = "<group>";
+		};
+		5618049C1CD881A30034D864 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5618049D1CD881A30034D864 /* Controller */,
+				561804A01CD881A30034D864 /* Model */,
+				561804A11CD881A30034D864 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5618049D1CD881A30034D864 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5618049E1CD881A30034D864 /* QHSMainViewController.h */,
+				5618049F1CD881A30034D864 /* QHSMainViewController.m */,
+				561804631CD87E660034D864 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		561804A01CD881A30034D864 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		561804A11CD881A30034D864 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				561804A31CD882130034D864 /* QHSGobangView.h */,
+				561804A41CD882130034D864 /* QHSGobangView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		561804A61CD89C6F0034D864 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				561804AB1CD8A07C0034D864 /* QHSSimpleAI.h */,
+				561804AC1CD8A07C0034D864 /* QHSSimpleAI.m */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		561804A71CD89CCA0034D864 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				561804A81CD89CE40034D864 /* QHSCustomPoint.h */,
+				561804A91CD89CE40034D864 /* QHSCustomPoint.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +266,13 @@
 		5618044F1CD87E660034D864 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QHS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Charles.Qiu;
 				TargetAttributes = {
 					561804561CD87E660034D864 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MQ348AB228;
 					};
 					5618046F1CD87E660034D864 = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,8 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5618049A1CD87FC30034D864 /* Info.plist in Resources */,
 				5618046A1CD87E660034D864 /* LaunchScreen.storyboard in Resources */,
-				561804671CD87E660034D864 /* Assets.xcassets in Resources */,
+				561804AF1CD9D94D0034D864 /* Assets.xcassets in Resources */,
 				561804651CD87E660034D864 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561804621CD87E660034D864 /* ViewController.m in Sources */,
-				5618045F1CD87E660034D864 /* AppDelegate.m in Sources */,
-				5618045C1CD87E660034D864 /* main.m in Sources */,
+				561804971CD87FB10034D864 /* AppDelegate.m in Sources */,
+				5618049B1CD87FC30034D864 /* main.m in Sources */,
+				561804AD1CD8A07C0034D864 /* QHSSimpleAI.m in Sources */,
+				561804A21CD881A30034D864 /* QHSMainViewController.m in Sources */,
+				561804AA1CD89CE40034D864 /* QHSCustomPoint.m in Sources */,
+				561804A51CD882130034D864 /* QHSGobangView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +384,7 @@
 				561804641CD87E660034D864 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		561804681CD87E660034D864 /* LaunchScreen.storyboard */ = {
@@ -413,10 +484,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QHSGobangGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGame;
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGame1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +499,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QHSGobangGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGame;
+				PRODUCT_BUNDLE_IDENTIFIER = CQ.QHSGobangGame1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
