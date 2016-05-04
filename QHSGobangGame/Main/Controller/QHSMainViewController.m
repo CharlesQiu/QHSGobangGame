@@ -24,6 +24,7 @@
     QHSGobangView *gobangView = [[QHSGobangView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.width)];
     gobangView.backgroundColor = backgroundColor;
     gobangView.center = self.view.center;
+    
     [self.view addSubview:gobangView];
 }
 
